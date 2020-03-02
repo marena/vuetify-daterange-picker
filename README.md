@@ -1,3 +1,14 @@
+# Updated for Vuetify 2
+* convert code and styles to Vuetify 2
+* move styles to sass file
+* add clearable option for input
+
+Install
+```
+import VuetifyDaterangePicker from "vuetify-daterange-picker";
+import "vuetify-daterange-picker/dist/vuetify-daterange-picker.css";
+```
+
 # Vuetify Daterange Picker
 
 The missing date range picker for Vuetify JS you have been looking for.

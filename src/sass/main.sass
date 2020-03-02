@@ -1,0 +1,41 @@
+.v-date-range__input-field > input
+  text-align: center
+
+.v-date-range__pickers
+
+  .v-date-picker-table
+    table
+      width: auto
+      margin: auto
+      border-collapse: collapse
+    .v-btn
+      position: initial
+
+  .v-date-range__content
+    display: flex
+
+  .v-date-picker-table__events
+    height: 100%
+    width: 100%
+    top: 0
+    z-index: -1
+
+    .v-date-range__in-range
+      position: absolute
+      z-index: 0
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      bottom: 0
+      right: 0
+      border-radius: 0
+
+    .v-date-range__in-range.v-date-range__range-start
+      border-top-left-radius: 50%
+      border-bottom-left-radius: 50%
+
+    .v-date-range__in-range.v-date-range__range-end
+      border-top-right-radius: 50%
+      border-bottom-right-radius: 50%
+      width: calc(100% - 5px)
